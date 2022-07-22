@@ -1,0 +1,25 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "description": "A sample Node.js app to log",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": " https://git.heroku.com/serene-savannah-99713.git"
+  },
+  "keywords": [
+    "node",
+    "heroku"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "user-agents": "^1.0.1080"
+  }
+}

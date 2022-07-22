@@ -1,0 +1,113 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Server Logs",
+		"_postman_id": "a03f9dfd-7c42-6c58-a801-d94521c0dd6e",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add Logs",
+			"request": {
+				"url": {
+					"raw": "http://localhost:9000/?log=stu&platform=lg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "log",
+							"value": "stu",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "platform",
+							"value": "lg",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Clear Logs",
+			"request": {
+				"url": {
+					"raw": "http://localhost:9000/?clear=true&platform=lg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "clear",
+							"value": "true",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "platform",
+							"value": "lg",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Logs",
+			"request": {
+				"url": {
+					"raw": "http://localhost:9000/?platform=lg",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "platform",
+							"value": "lg",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

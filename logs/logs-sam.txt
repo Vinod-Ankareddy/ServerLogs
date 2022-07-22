@@ -1,0 +1,4 @@
+
+{"platForm":"sam","time":"2022-07-22T06:34:13Z","ip":"1","agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36","appName":"","appVersion":"","model":"","log":"bnj"},
+{"platForm":"sam","time":"2022-07-22T06:34:17Z","ip":"1","agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36","appName":"","appVersion":"","model":"","log":"bnl"},
+{"platForm":"sam","time":"2022-07-22T06:34:22Z","ip":"1","agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36","appName":"","appVersion":"","model":"","log":"asd"},
